@@ -1,0 +1,16 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord music bot with filters and controls",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "riffy": "^1.0.0",
+    "musicard": "^1.0.0",
+    "nodemon": "^3.0.2"
+  }
+}
